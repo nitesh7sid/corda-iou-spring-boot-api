@@ -12,11 +12,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
  * Our Spring Boot application.
  */
 @SpringBootApplication
-open class Application
+open class Server
 
 /**
  * Starts our Spring Boot application.
  */
 fun main(args: Array<String>) {
-    SpringApplication.run(Application::class.java, *args)
+    SpringApplication.run(Server::class.java, *args)
 }
